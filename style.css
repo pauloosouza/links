@@ -1,0 +1,79 @@
+:root{
+    --padrao1:#f5f5f5;
+    --padrao:#000000;
+    --nome:'ispiration', cursive;
+    --corpo:'montserrar', sams-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:105%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nome{
+    font-family: var(--nome);
+    font-size: 3.5rem;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+}
+.box-top{
+    width: 95vw;
+    height: 35vh;
+    background-color: rgb(37, 35, 35);
+    margin-bottom: 10px;
+    border-radius: 0px 0px 35px 35px;
+}
+.about{
+    font-family: var(--corpo);
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-link{
+    background-color:rgb(41, 39, 39);
+    box-shadow: 8px 10px 7px #000000;
+    height: 5vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: var(--corpo);
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.box-link:hover{
+    border: 1px solid var(--padrao);
+    background-color: rgb(1, 19, 24);
+    color: #fff;
+}
+.box-botton img{
+    margin-top: 15px;
+    width: 57vw;
+    height: 12vh;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 35px 35px;
+}
